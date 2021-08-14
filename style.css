@@ -131,9 +131,6 @@ body {
     .container {
         max-width: 720px;
     }
-    .row {
-        flex-wrap: wrap;
-    }
     .col-sm-2 {
         flex: 0 0 16.66667;
         min-width: 16.66667;
@@ -146,9 +143,6 @@ body {
 @media(min-width: 992px) {
     .container {
         max-width: 960px;
-    }
-    .row {
-        flex-wrap: wrap;
     }
 }
 
@@ -177,9 +171,6 @@ body {
 @media(max-width: 767px) {
     .container {
         max-width: none;
-    }
-    .row {
-        flex-wrap: wrap;
     }
 
     .col-xs-hiden {
