@@ -6,49 +6,438 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <title>Lesson-17 layout-2</title>
+    <title>modest-project</title>
 </head>
 <body>
-    <header class="page-header">
+    <header id="header" class="page-header">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-2 col-md-3">
-                    <div class="header-logo"><img src="images/header_logo.jpg" alt=""></div>
+                    <div class="header-logo"><img src="images/header_logo.jpg" alt="modest logo"></div>
                 </div>
                 <div class="col-xs-12 col-sm-8 col-md-7">
                     <ul class="header-menu">
-                        <li><a href="" class="menu-item item_home">HOME</a></li>
-                        <li><a href="" class="menu-item">ABOUT</a></li>
-                        <li><a href="" class="menu-item">WORK</a></li>
-                        <li><a href="" class="menu-item">TEAM</a></li>
-                        <li><a href="" class="menu-item">SERVICES</a></li>
-                        <li><a href="" class="menu-item">FEATURES</a></li>
-                        <li><a href="" class="menu-item">CONTACT</a></li>
+                        <li><a href="#header" class="header-menu_item">HOME</a></li>
+                        <li><a href="#vr-modest" class="header-menu_item">ABOUT</a></li>
+                        <li><a href="#work" class="header-menu_item">WORK</a></li>
+                        <li><a href="#team" class="header-menu_item">TEAM</a></li>
+                        <li><a href="#services" class="header-menu_item">SERVICES</a></li>
+                        <li><a href="#features" class="header-menu_item">FEATURES</a></li>
+                        <li><a href="#contact" class="header-menu_item">CONTACT</a></li>
                     </ul>
                 </div>
-                <div class="col-xs-hiden col-sm-2 col-md-2">
+                <div class="col-xs-hiden col-sm-2">
                     <div class="search-menu">
-                        <form action="" class="search-form">
-                            <input type="text" class="search-form_text" placeholder="search">
-                            <input type="button" class="search-form_btn">
-                        </form>
+                    <form action="" class="header-search_form">
+                        <input type="text" class="header-search_input" placeholder="search">
+                        <button class="search-btn"></button>
+                    </form>
                     </div>
                 </div>
             </div>
         </div>
-    </header>   
-    <section class="banner">
+    </header>  
+    <main> 
+
+<!--==========   slider =============================================-->
+        
+    <section id="slider" class="slider">
         <div class="container">
+            <div class="title-block">
+                <div class="h1-title text-color_white">WELCOME TO OUR MARKETPLACE</div>
+            </div>
             <div class="row">
-                <div class="col-md-7">
-                    <div class="banner-title">WELCOME TO OUR MARKET PLACE</div>
-                    <div class="banner-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor 
-                        non, ornare sagittis dolor. Nulla vestibulu lacus ...</div>
-                    <button class="banner-btn">VIEW MORE</button>
-                    <button class="banner-btn">VIDEO TOUR</button>
+                <div class="col-xs-12 col-md-7">
+                    <div class="slider-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo doloribus dolor officiis, debitis placeat error praesentium repellendus perferendis enim ...</div>
+                        <div class="slider-buttons">
+                            <button class="btn">VIEW MORE</button>
+                            <button class="btn">VIDEO TOUR</button>
+                        </div>
                 </div>
             </div>
         </div>
-    </section> 
+    </section>
+<!-- ============  about =====================================-->
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="title-block">
+                    <div class="mark"></div>
+                    <div class="h1-title text-color_dark">WE ARE MODEST.</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-7">
+                        <div class="column-content">
+                            <div class="about-text"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet hic expedita quo. Corporis quaerat voluptate eaque suscipit architecto libero, exercitationem labore dolorem quas, mollitia possimus, ea esse asperiores inventore accusantium aspernatur laborum dolorum ad velit officia quo quae vitae fuga?</p></div>
+                            <div class="about-text"><p>Sit aperiam cum reiciendis rerum, <b>molestias autem numquam</b> obcaecati nisi explicabo, dignissimos deleniti nemo consectetur accusamus quam iste blanditiis qui dolores iure praesentium magni deserunt voluptas ipsum enim. Aperiam, architecto.</p></div>
+                            <div class="about-nav">
+                                <div class="net-icon fb"></div>
+                                <div class="net-icon tw"></div>
+                                <div class="net-icon go"></div>
+                                <div class="net-icon bs"></div>
+                                <div class="net-icon be"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-5">
+                        <div class="about-fit">
+                            <div class="fit-block">
+                                <div class="fit-mark">
+                                    <div class="fit-nom">01</div>
+                                </div>
+                                <div class="fit-content">
+                                    <div class="h2-title text-color_dark">DEDICATION TO THE CUSTOMERS</div>
+                                    <div class="about-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, culpa vel maxime quidem officiis.</div>
+                                </div>
+                            </div>
+                            <div class="fit-block">
+                                <div class="fit-mark">
+                                    <div class="fit-nom">02</div>
+                                </div>
+                                <div class="fit-content">
+                                    <div class="h2-title text-color_dark">WORKING CLOSELY WITH OUR CLIENTS</div>
+                                    <div class="about-text">Ea ipsum ipsam, magnam itaque, nihil inventore voluptatem minima corrupti eligendi fugiat qui.</div>
+                                </div>
+                            </div>
+                            <div class="fit-block">
+                                <div class="fit-mark">
+                                    <div class="fit-nom">03</div>
+                                </div>
+                                <div class="fit-content">
+                                    <div class="h2-title text-color_dark">INCREASE HAPPINESS</div>
+                                    <div class="about-text">Eeum fuga nesciunt iste voluptatum dolorem quod. Cum voluptatibus mollitia eos aliquam labor.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!--================== team ===================================================-->
+
+        <section id="team" class="team">
+            <div class="container">
+                <div class="title-block">
+                    <div class="mark"></div>
+                    <div class="h1-title text-color_dark">MEET THE TEAM.</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="team-item">
+                            <div class="team-item_image">
+                                <img src="images/team-item1.png" width="100%" height="100%" alt="team member">
+                                <div class="nav-block">
+                                    <div class="nav-items">
+                                        <div class="nav-block_item tw"></div>
+                                        <div class="nav-block_item fb"></div>
+                                        <div class="nav-block_item in"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item_data">
+                                <div class="name h2-title">GLORIA BROMLEY</div>
+                                <div class="member-position">CEO and Founder</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="team-item">
+                            <div class="team-item_image">
+                                <img src="images/team-item2.png" width="100%" height="100%" alt="team member">
+                                <div class="nav-block">
+                                    <div class="nav-items">
+                                        <div class="nav-block_item tw"></div>
+                                        <div class="nav-block_item fb"></div>
+                                        <div class="nav-block_item in"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item_data">
+                                <div class="name h2-title">PAUL TORRES</div>
+                                <div class="member-position">Head of Development</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="team-item">
+                            <div class="team-item_image">
+                                <img src="images/team-item3.png" width="100%" height="100%" alt="team member">
+                                <div class="nav-block">
+                                    <div class="nav-items">
+                                        <div class="nav-block_item tw"></div>
+                                        <div class="nav-block_item fb"></div>
+                                        <div class="nav-block_item in"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item_data">
+                                <div class="name h2-title">JUDITH GILETTE</div>
+                                <div class="member-position">Graphic Designer</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="team-item">
+                            <div class="team-item_image">
+                                <img src="images/team-item4.png" width="100%" height="100%" alt="team member">
+                                <div class="nav-block">
+                                    <div class="nav-items">
+                                        <div class="nav-block_item tw"></div>
+                                        <div class="nav-block_item fb"></div>
+                                        <div class="nav-block_item in"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item_data">
+                                <div class="name h2-title">DELORES REED</div>
+                                <div class="member-position">Client Service Director</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!--================= lovely work =====================================================-->
+
+        <section id="work" class="work">
+            <div class="container">
+                <div class="title-block">
+                    <div class="mark"></div>
+                    <div class="h1-title text-color_white">LOVELY WORK.</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="work-item">
+                            <div class="work-image">
+                                <img src="images/w1.png" width="100%" alt="lovely work">
+                                <div class="plus"></div>
+                                <div class="guidline h2-title text-color_white">PARTNERSHIP GUIDLINES</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="work-item">
+                            <div class="work-image">
+                                <img src="images/w2.png" width="100%" alt="lovely work">
+                                <div class="plus"></div>
+                                <div class="guidline h2-title text-color_white">PARTNERSHIP GUIDLINES</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="work-item">
+                            <div class="work-image">
+                                <img src="images/w3.png" width="100%" alt="lovely work">
+                                <div class="plus"></div>
+                                <div class="guidline h2-title text-color_white">PARTNERSHIP GUIDLINES</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="work-item">
+                            <div class="work-image">
+                                <img src="images/w4.png" width="100%" alt="lovely work">
+                                <div class="plus"></div>
+                                <div class="guidline h2-title text-color_white">PARTNERSHIP GUIDLINES</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="work-item">
+                            <div class="work-image">
+                                <img src="images/w5.png" width="100%" alt="lovely work">
+                                <div class="plus"></div>
+                                <div class="guidline h2-title text-color_white">PARTNERSHIP GUIDLINES</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="work-item">
+                            <div class="work-image">
+                                <img src="images/w6.png" width="100%" alt="lovely work">
+                                <div class="plus"></div>
+                                <div class="guidline h2-title text-color_white">PARTNERSHIP GUIDLINES</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-button">
+                    <button class="btn">SHOW MORE</button>
+                </div>
+            </div>
+        </section>
+
+<!--=================== services ==========================-->
+
+        <section id="services" class="services">
+            <div class="container">
+                <div class="title-block">
+                    <div class="mark"></div>
+                    <div class="h1-title text-color_dark">WHAT WE DO.</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="services-item">
+                            <div class="services-image">
+                                <img src="images/s1.png" width="100%" alt="features">
+                            </div>
+                            <div class="h2-title text-color_dark">EASY THEME SETUP</div>
+                            <div class="services-text text-color_dark">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum.</div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="services-item">
+                            <div class="services-image">
+                                <img src="images/s2.png" width="100%" alt="features">
+                            </div>
+                            <div class="h2-title text-color_dark">PIXEL PERFECT DESIGN</div>
+                            <div class="services-text text-color_dark">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum.</div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="services-item">
+                            <div class="services-image">
+                                <img src="images/s3.png" width="100%" alt="features">
+                            </div>
+                            <div class="h2-title text-color_dark">RESPONSIVE DISPLAY</div>
+                            <div class="services-text text-color_dark">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum.</div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="services-item">
+                            <div class="services-image">
+                                <img src="images/s4.png" width="100%" alt="features">
+                            </div>
+                            <div class="h2-title text-color_dark">24/7 SUPPORT</div>
+                            <div class="services-text text-color_dark">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum.</div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="services-item">
+                            <div class="services-image">
+                                <img src="images/s1.png" width="100%" alt="features">
+                            </div>
+                            <div class="h2-title text-color_dark">EASY THEME SETUP</div>
+                            <div class="services-text text-color_dark">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum.</div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="services-item">
+                            <div class="services-image">
+                                <img src="images/s2.png" width="100%" alt="features">
+                            </div>
+                            <div class="h2-title text-color_dark">PIXEL PERFECT DESIGN</div>
+                            <div class="services-text text-color_dark">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum.</div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="services-item">
+                            <div class="services-image">
+                                <img src="images/s3.png" width="100%" alt="features">
+                            </div>
+                            <div class="h2-title text-color_dark">RESPONSIVE DISPLAY</div>
+                            <div class="services-text text-color_dark">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum.</div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="services-item">
+                            <div class="services-image">
+                                <img src="images/s4.png" width="100%" alt="features">
+                            </div>
+                            <div class="h2-title text-color_dark">24/7 SUPPORT</div>
+                            <div class="services-text text-color_dark">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!--=================== features ==========================-->
+
+        <section id="features" class="features">
+            <div class="container">
+                <div class="title-block">
+                    <div class="mark"></div>
+                    <div class="h1-title text-color_white">FEATURES.</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="features-item">
+                            <div class="features-image">
+                                <img src="images/f1.png" width="100%" alt="features">
+                            </div>
+                            <div class="h2-title text-color_white">PRODUCT DESIGNE: EAMES CHAIRS</div>
+                            <div class="features-text text-color_white">Eames designs are certainly iconic. Everyone of us know at least two or three of their famous chairs. I would even risk saying that most of us dream about having a nice Eames.</div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="features-item">
+                            <div class="features-image">
+                                <img src="images/f2.png" width="100%" alt="features">
+                            </div>
+                            <div class="h2-title text-color_white">ELEGANT AND COLORFUL LOGOS</div>
+                            <div class="features-text text-color_white">I’ve always found logo design to be one of the most challenging things to get right. There’s so much that a logo can say about a brand without actually saying it.</div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="features-item">
+                            <div class="features-image">
+                                <img src="images/f3.png" width="100%" alt="features">
+                            </div>
+                            <div class="h2-title text-color_white">A SHOWCASE OF CREATIVE</div>
+                            <div class="features-text text-color_white">It’s always interesting to see another designer’s take on a famous website, app or even physical product. Different designers add their own personality and style.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!--===================== contact ======================================-->
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="title-block">
+                    <div class="mark"></div>
+                    <div class="h1-title text-color_dark">STAY IN TOUCH.</div>
+                </div>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d322394.8232925254!2d4.095236271107768!3d50.85506246138768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1630620006320!5m2!1sru!2sua">Shit happens... Your browser can't display that map...</iframe>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="h2-title shift text-color_dark">CONTACT INFORMATION</div>
+                        <div class="contact-text text-color_dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique nec dolor non, ornare sagittis dolor. Nulla vestibulum lacus sed molestie gravida.</div>
+                        <div class="contact-text text-color_dark">Cras fermentum elit quis magna congue, vel sodales arcu vestibulum. Nunc lobortis dui magna, quis dapibus lacus</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<!--===================== footer =======================================-->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <div class="wraper left">
+                        <div class="copyright text-color_white">© Copyright 2014 by PSD Booster. All Rights Reserved.</div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <div class="wraper right">
+                        <div class="footer-nav">
+                            <div class="nav-item tw"></div>
+                            <div class="nav-item fb"></div>
+                            <div class="nav-item sk"></div>
+                            <div class="nav-item be"></div>
+                            <div class="nav-item in"></div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
