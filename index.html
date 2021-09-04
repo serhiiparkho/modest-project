@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="splide/dist/css/themes/splide-sea-green.min.css">
     <title>modest-project</title>
 </head>
 <body>
@@ -48,11 +49,31 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 col-md-7">
-                    <div class="slider-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo doloribus dolor officiis, debitis placeat error praesentium repellendus perferendis enim ...</div>
-                        <div class="slider-buttons">
+                    <div class="slider-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo doloribus dolor officiis, debitis placeat error praesentium repellendus perferendis enim ...
+                    </div>
+                    <div class="slider-buttons">
                             <button class="btn">VIEW MORE</button>
                             <button class="btn">VIDEO TOUR</button>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-5">
+                    <div class="splide">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide"><img src="images/team-item1.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/team-item2.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/team-item3.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/team-item4.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/w1.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/w2.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/w3.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/w4.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/w5.png" alt=""></li>
+                                <li class="splide__slide"><img src="images/w6.png" alt=""></li>
+                            </ul>
                         </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -409,6 +430,7 @@
                         <div class="h2-title shift text-color_dark">CONTACT INFORMATION</div>
                         <div class="contact-text text-color_dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique nec dolor non, ornare sagittis dolor. Nulla vestibulum lacus sed molestie gravida.</div>
                         <div class="contact-text text-color_dark">Cras fermentum elit quis magna congue, vel sodales arcu vestibulum. Nunc lobortis dui magna, quis dapibus lacus</div>
+                        <button class="contact-btn">SEND MESSAGE</button>
                     </div>
                 </div>
             </div>
@@ -422,7 +444,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-6">
                     <div class="wraper left">
-                        <div class="copyright text-color_white">© Copyright 2014 by PSD Booster. All Rights Reserved.</div>
+                        <div class="copyright text-color_white">© Copyright 2021 by SParkho. All Rights Reserved.</div>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6">
@@ -439,5 +461,30 @@
             </div>
         </div>
     </footer>
-</body>
+
+<!--===================== contact modal window =============================================-->
+    <div class="modal hide">
+        <div class="modal-form_block">
+            <form action="">
+                <div class="name-block">
+                    <div class="modal-form_name">
+                        <div class="form-element_header">YOUR NAME</div>
+                        <input type="text" class="modal-input">
+                    </div>
+                    <div class="modal-form_email">
+                        <div class="form-element_header">YOUR E-MAIL</div>
+                        <input type="email" class="modal-input">
+                    </div>
+                </div>
+                <div class="modal-form_message">
+                    <div class="form-element_header">YOUR MESSAGE</div>
+                    <textarea class="message"></textarea>
+                </div>
+                <button class="modal-send_btn">SEND MESSAGE</button>
+            </form>
+        </div>
+    </div>
+    <script src="splide/dist/js/splide.min.js"></script>
+    <script src="modest.js"></script>
+</body> 
 </html>

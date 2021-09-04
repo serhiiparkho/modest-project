@@ -153,10 +153,10 @@ b {
 /* =============== slider ============================================*/
 .slider {
     background: url("images/banner.png") no-repeat center;
-    padding: 10% 0;
+    padding: 5% 0;
 }
 .slider .row {
-    justify-content: start;
+    justify-content: center;
 }
 .slider-text {
     font-size: 16px;
@@ -181,6 +181,11 @@ b {
 .btn:hover {
     background-color: rgb(35, 183, 164);
     border-color: rgb(35, 183, 164);
+}
+.splide {
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 /*  ========================= about ===================================*/
 .about {
@@ -377,11 +382,6 @@ b {
     text-align: center;
     margin-top: 30px;
 }
-/*.services .text {
-    color: rgb(29, 33, 38);
-    margin-top: 30px;
-}*/
-
 
 /*============= features ==================================*/
 .features {
@@ -411,7 +411,7 @@ b {
 
 .contact {
     padding-top: 60px;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
 }
 iframe {
     width: 100%;
@@ -423,6 +423,22 @@ iframe {
 }
 .contact-text {
     margin-top: 40px;
+}
+.contact-btn {
+    width: 125px;
+    height: 45px;
+    border: 2px solid rgb(35,183,164);
+    border-radius: 5px;
+    background-color: rgb(35,183,164);
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.contact-btn:hover {
+    background-color: transparent;
+    color: rgb(35,183,164);
 }
 
 /*============== footer ===================================*/
@@ -444,6 +460,77 @@ iframe {
     width: 30px;
     height: 30px;
     background-color: transparent;
+}
+
+/*=================== contact modal window ========================*/
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 100;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+
+.modal-form_block {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 20px;
+    margin: 100px auto;
+    background-color: white;
+}  
+.modal-form_message {
+    flex: 0 0 100%;
+}
+.form-element_header {
+    font-family: 'Quattrocento', sans-serif;
+    font-size: 14px;
+    color: rgb(41,47,54);
+    margin-left: 10px;
+}
+.modal-form_name, .modal-form_email {
+    display: flex;
+    flex: 0 0 45%;
+    flex-wrap: wrap;
+}
+.name-block {
+    display: flex;
+    flex: 0 0 100%;
+    justify-content: space-between;
+}
+.modal-form_name, .modal-form_email, .modal-form_message {
+    margin-bottom: 30px;
+}
+.modal-input, .message {
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    background-color: rgb(234,238,241);
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+    padding: 5px;
+}
+.message {
+    height: 160px; 
+}
+.modal-send_btn {
+    flex: 0 0 130px;
+    height: 40px;
+    border: 2px solid rgb(35,183,164);
+    border-radius: 5px;
+    background-color: rgb(35,183,164);
+    color: white;
+    text-align: center;
+    cursor: pointer;
 }
 /*==============  xs-grid =================================*/
 .col-xs-1 {
@@ -514,7 +601,7 @@ iframe {
     .contact .row {
         justify-content: left;
     }
-    
+        
 }
 /* laptop */
 @media (min-width: 992px){
@@ -545,6 +632,7 @@ iframe {
         flex: 0 0 58.33333%;
         max-width: 58.33333%;
     }
+    
    
 }
 /* desktop*/
@@ -597,4 +685,5 @@ iframe {
     .slider-buttons {
         justify-content: center;
     }
+    
 }
